@@ -1,0 +1,7 @@
+<launch>
+    <param name="v" value="1.0" />
+    <param name="d" value="0.5" />
+
+    <node pkg="lab1_pkg" type="talker.py" name="talker" output="screen"/>
+    <node pkg="lab1_pkg" type="relay.py" name="relay" output="screen"/>
+</launch>
